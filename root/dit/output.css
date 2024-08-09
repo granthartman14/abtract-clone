@@ -554,57 +554,25 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.-mb-0\.5 {
-  margin-bottom: -0.125rem;
-}
-
-.-mt-0\.5 {
-  margin-top: -0.125rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
-.-mt-16 {
-  margin-top: -4rem;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
-}
-
-.-mr-8 {
-  margin-right: -2rem;
-}
-
-.-ml-8 {
-  margin-left: -2rem;
-}
-
-.-ml-12 {
-  margin-left: -3rem;
-}
-
 .-ml-10 {
   margin-left: -2.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -621,54 +589,80 @@ video {
   height: 1.5rem;
 }
 
-.size-36 {
-  width: 9rem;
-  height: 9rem;
+.h-10 {
+  height: 2.5rem;
 }
 
-.w-40 {
-  width: 10rem;
+.h-auto {
+  height: auto;
+}
+
+.max-h-10 {
+  max-height: 2.5rem;
+}
+
+.max-h-7 {
+  max-height: 1.75rem;
+}
+
+.max-h-3 {
+  max-height: 0.75rem;
+}
+
+.max-h-12 {
+  max-height: 3rem;
+}
+
+.max-h-20 {
+  max-height: 5rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-2\/3 {
+  width: 66.666667%;
 }
 
-.min-w-56 {
-  min-width: 14rem;
+.w-1\/3 {
+  width: 33.333333%;
 }
 
-.min-w-full {
-  min-width: 100%;
+.w-4 {
+  width: 1rem;
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-6xl {
-  max-width: 72rem;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
-}
-
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
+.min-w-0 {
+  min-width: 0px;
 }
 
 .max-w-full {
   max-width: 100%;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
+.max-w-4 {
+  max-width: 1rem;
+}
+
+.max-w-3 {
+  max-width: 0.75rem;
+}
+
+.max-w-12 {
+  max-width: 3rem;
+}
+
+.max-w-20 {
+  max-width: 5rem;
 }
 
 .flex-row {
@@ -679,28 +673,32 @@ video {
   flex-direction: column;
 }
 
-.items-center {
-  align-items: center;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.justify-center {
-  justify-content: center;
+.items-center {
+  align-items: center;
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-md {
@@ -711,14 +709,14 @@ video {
   border-width: 1px;
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -736,46 +734,8 @@ video {
   background-color: rgb(76 95 213 / var(--tw-bg-opacity));
 }
 
-.p-24 {
-  padding: 6rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-px {
-  padding-left: 1px;
-  padding-right: 1px;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .px-16 {
@@ -783,22 +743,34 @@ video {
   padding-right: 4rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 
-.text-center {
-  text-align: center;
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -811,18 +783,16 @@ video {
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-extrabold {
+  font-weight: 800;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-periwinkle {
+  --tw-text-opacity: 1;
+  color: rgb(76 95 213 / var(--tw-text-opacity));
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
