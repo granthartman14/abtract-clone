@@ -8,7 +8,9 @@ module.exports = {
       lilac: "#dadbf1",
       periwinkle: "#4C5FD5",
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 };
